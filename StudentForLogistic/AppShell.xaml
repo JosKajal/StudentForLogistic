@@ -102,10 +102,10 @@
         <ShellContent Route="AboutPage"
                       ContentTemplate="{DataTemplate local:AboutPage}" />
     </FlyoutItem>
-    <FlyoutItem Title="A"
+    <FlyoutItem Title="Mapa"
                 Icon="icon_about.png">
-        <ShellContent Route="AboutPage"
-                      ContentTemplate="{DataTemplate local:AboutPage}" />
+        <ShellContent Route="Mapa"
+                      ContentTemplate="{DataTemplate local:Mapa}" />
     </FlyoutItem>
     <FlyoutItem Title="Menu"
                 Icon="icon_feed.png">
