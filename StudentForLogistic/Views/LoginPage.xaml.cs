@@ -17,5 +17,22 @@ namespace StudentForLogistic.Views
             InitializeComponent();
             this.BindingContext = new LoginViewModel();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            if (txtUserName.Text == "admin" && txtPassword.Text == "123")
+            {
+
+            }
+            else
+            {
+                DisplayAlert("Error", "Usuario o contraseña incorrecto", "Ok");
+            }
+        }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            //NavigationPage.PushAsync(new); 
+        }
     }
 }
