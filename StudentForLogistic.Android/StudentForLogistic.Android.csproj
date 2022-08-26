@@ -59,6 +59,9 @@
     <PackageReference Include="Xamarin.Forms.Maps">
       <Version>5.0.0.2515</Version>
     </PackageReference>
+    <PackageReference Include="Xamd.Plugins.Forms.ImageCarousel">
+      <Version>1.0.2</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -96,4 +99,9 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties XamarinHotReloadDebuggerTimeoutExceptionStudentForLogisticAndroidHideInfoBar="True" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
