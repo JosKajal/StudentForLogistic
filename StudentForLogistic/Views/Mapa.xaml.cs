@@ -12,6 +12,7 @@ namespace StudentForLogistic.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Mapa : ContentPage
     {
+        //VERSION DE RECUPERACION 
         public Mapa()
         {
             InitializeComponent();
